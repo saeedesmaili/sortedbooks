@@ -14,7 +14,7 @@ secret = 'YOURSECRET'
 
 '''
 Save your books list from https://play.google.com/books as a books.htm in
-   the same direcory as this python file
+   the same directory as this python file
 This snippet of code, scraps books list and stores them in a python list
 '''
 soup = BeautifulSoup(open('books.htm'), 'html.parser')
